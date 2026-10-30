@@ -1,0 +1,20 @@
+{
+  "packageId": "com.craftersajjad.craftland",
+  "host": "ais-pre-v6axv5q2ttaxi7themaxkt-695577047220.asia-southeast1.run.app",
+  "name": "Crafter Sajjad",
+  "short_name": "Crafter Sajjad",
+  "launcherName": "Crafter Sajjad",
+  "display": "standalone",
+  "themeColor": "#090D16",
+  "navigationColor": "#090D16",
+  "backgroundColor": "#020617",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://ais-pre-v6axv5q2ttaxi7themaxkt-695577047220.asia-southeast1.run.app/pwa-512x512.png",
+  "maskableIconUrl": "https://ais-pre-v6axv5q2ttaxi7themaxkt-695577047220.asia-southeast1.run.app/pwa-maskable-512x512.png",
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "signing": {
+    "scheme": "v2"
+  }
+}

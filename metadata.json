@@ -1,0 +1,6 @@
+{
+  "name": "Crafter Sajjad",
+  "description": "Explore and copy Free Fire Craftland map codes by Crafter Sajjad. Filter by Latest, Most Liked, and Oldest with server codes for Bangladesh, India, Indonesia, and more.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

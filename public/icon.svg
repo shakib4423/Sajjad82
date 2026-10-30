@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="fireGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ea580c" />
+      <stop offset="40%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fde047" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" stroke="#f59e0b" stroke-width="8" stroke-opacity="0.3" />
+
+  <!-- Outer Fire Glow -->
+  <path d="M256 80 C270 140 330 180 340 240 C352 310 305 380 256 420 C207 380 160 310 172 240 C182 180 242 140 256 80 Z" fill="#ea580c" opacity="0.35" filter="url(#glow)" />
+
+  <!-- Main Flame -->
+  <path d="M256 95 C280 160 350 210 350 285 C350 360 305 410 256 410 C207 410 162 360 162 285 C162 210 232 160 256 95 Z" fill="url(#fireGrad)" />
+
+  <!-- Inner Flame Core -->
+  <path d="M256 220 C275 260 305 290 305 330 C305 375 280 395 256 395 C232 395 207 375 207 330 C207 290 237 260 256 220 Z" fill="#ffffff" opacity="0.9" />
+
+  <!-- Gaming Crosshair / Star detail -->
+  <circle cx="256" cy="325" r="12" fill="#f59e0b" />
+</svg>
